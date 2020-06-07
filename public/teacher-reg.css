@@ -1,0 +1,88 @@
+/* body {
+    height: 600px;
+} */
+#header {
+    width: 1583px;
+    height: 1014px;
+    background-image: url('cont-image/backg.png');
+    background-repeat: no-repeat;
+}
+#login {
+    width: 900px;
+    height: 835px;
+    background-color: rgba(255, 31, 31, 0.322);
+    border-radius: 20px;
+    position: relative;
+    left: 350px;
+    top: 30px;
+}
+@font-face{
+    font-family: "font_1";
+    src: url('fonts/FredokaOne-Regular.ttf');
+}
+#name {
+    text-align: center;
+    width: 580px;
+    font-family: "font_1";
+    color: goldenrod;
+    position: relative;
+    top: -8px;
+    left: 190px;
+}
+@font-face {
+    font-family: 'font-2';
+    src: url('fonts/Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-3';
+    src: url('fonts/RockSalt-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-4';
+    src: url('fonts/GloriaHallelujah-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-5';
+    src: url('fonts/RammettoOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-6';
+    src: url('fonts/Ranchers-Regular.ttf');
+}
+h1 {
+    text-align: center;
+    font-family: 'font-6';
+    color: white;
+    position: relative;
+    top: 40px;
+}
+#login img {
+    position: relative;
+    top: 45px;
+    left: 150px;
+}
+
+#mno {
+    position: relative;
+    left: 1500px;
+    top: -20px;
+}
+#mno a{
+    color: white;
+}
+#mno a:hover{
+    color: rgb(168, 19, 19);
+    font-weight: bold;
+    text-decoration: none;
+}
+.form {
+    width: 700px;
+    color: white;
+    border-top: 2px solid white;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+.klm {
+    margin-left: 310px;
+    color: goldenrod;
+}

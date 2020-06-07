@@ -1,0 +1,116 @@
+body {
+    height: 760px;
+}
+#header {
+    width: 1583px;
+    height: 880px;
+    background-image: url('cont-image/backg.png');
+    background-repeat: no-repeat;
+}
+#login {
+    width: 600px;
+    height: 585px;
+    background-color: rgba(255, 31, 31, 0.322);
+    border-radius: 20px;
+    position: relative;
+    left: 495px;
+    top: 30px;
+}
+@font-face{
+    font-family: "font_1";
+    src: url('fonts/FredokaOne-Regular.ttf');
+}
+#name {
+    text-align: center;
+    width: 580px;
+    font-family: "font_1";
+    color: goldenrod;
+    position: relative;
+    top: 45px;
+    left: 10px;
+}
+@font-face {
+    font-family: 'font-2';
+    src: url('fonts/Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-3';
+    src: url('fonts/RockSalt-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-4';
+    src: url('fonts/GloriaHallelujah-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-5';
+    src: url('fonts/RammettoOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'font-6';
+    src: url('fonts/Ranchers-Regular.ttf');
+}
+h1 {
+    text-align: center;
+    font-family: 'font-6';
+    color: white;
+    position: relative;
+    top: 40px;
+}
+#login img {
+    position: relative;
+    top: 40px;
+    left: 240px;
+}
+#head {
+    background-color: goldenrod;
+    height: 70px;
+    border-radius: 20px 20px 0 0;
+}
+.us-ps {
+    border-top: 2px solid white;
+    padding-top: 30px;
+    width: 485px;
+    height: 550px;
+    position: relative;
+    left: 550px;
+    top: -355px;
+    margin-top: 10px;
+}
+#abc {
+    font-size: 17px;
+    color: white;
+}
+#def {
+    font-size: 17px;
+    color: white;
+}
+#ghi {
+    font-size: 17px;
+    color: white;
+}
+.das {
+    color: white;
+}
+.klm {
+    margin-left: 45px;
+    color: goldenrod;
+}
+#buttons {
+    margin-top: 10px;
+}
+#hr {
+    color: white;
+}
+#mno {
+    position: relative;
+    left: 1500px;
+    top: -20px;
+}
+#mno a{
+    color: white;
+}
+#mno a:hover{
+    color: rgb(168, 19, 19);
+    font-weight: bold;
+    text-decoration: none;
+}

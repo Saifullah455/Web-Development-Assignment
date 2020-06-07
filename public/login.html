@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div id="header">
+      <h1>User Login</h1>
+      <button class="btn btn-outline-light but btn-sm" id="mno"><a href="index.html">Back</a></button>
+       <div id="login">
+        <!-- <div id="head">
+            <h1>User Login</h1>
+        </div> -->
+        <img src="images/logo1.png" alt="LOGO" width="120" height="90">
+        <h2 id="name">Master's Educational Stystem</h2>
+       </div>
+       <div class="us-ps">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1" id="abc">Email address</label>
+              <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <!-- <small id="emailHelp" class="form-text text-muted abc">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" id="def">Password</label>
+              <input required type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <!-- <label for="category" id="ghi">Select Category</label> <br>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-light">
+                  <input type="radio" name="options" id="option1" checked> Student
+                </label>
+                <label class="btn btn-light">
+                  <input type="radio" name="options" id="option2"> Teacher
+                </label>
+                <label class="btn btn-light">
+                    <input type="radio" name="options" id="option2"> Administerator
+                  </label>
+              </div> -->
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label das" for="exampleCheck1">Check me out</label>
+            </div>
+            <label for="login-for" class="das">Login For: </label>
+            <div id="buttons">
+                <button type="submit" class="btn btn-outline-light klm">Student</button>
+                <button type="submit" class="btn btn-outline-light klm">Administerator</button>
+                <button type="submit" class="btn btn-outline-light klm">Teacher</button>
+            </div>
+          </form>
+       </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
